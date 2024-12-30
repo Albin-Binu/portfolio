@@ -1,74 +1,41 @@
-const logotext = "JOHN";
+import image from './img/dev.jpg'
+const logotext = "Albin";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Albin Binu",
+    description: "I'm still learning",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I'm Albin Binu",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I Love Coding",
+        second: "I Hate Logical Thinking",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Im a second year Computer Science Student, who love Coding and Hate Math",
+    your_img_url: image,
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "About my Self",
+    aboutme: "My name is Albin Binu, and I'm a first-year computer science student at the College of Applied Science, Thiruvambadi. I love programming, but understanding the logic behind it is challenging for me. I dislike mathematics; consequently, grasping math-based logic is not my forte. Despite this, I am currently focusing on web development and object-oriented languages to enhance my skills.",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
-];
+
 
 const skills = [{
         name: "Python",
-        value: 90,
+        value: 70,
     },
     {
         name: "Djano",
-        value: 85,
+        value: 1,
     },
     {
         name: "Javascript",
-        value: 80,
+        value: 64,
     },
     {
         name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
-    },
-];
-
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        value: 30,
     },
 ];
 
@@ -136,9 +103,9 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "albinbinuk17@gmail.com",
+    // YOUR_FONE: "NUll",
+    description: "I maybe slow response",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,18 +114,18 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
+    github: "https://github.com/Albin-Binu",
     facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    // linkedin: "https://linkedin.com",
+    // twitter: "https://twitter.com",
+    instagram:"https://instagram.com/Albinbinu.me",
+    telegram:"https://Albin_binu",
 };
 export {
     meta,
     dataabout,
     dataportfolio,
-    worktimeline,
     skills,
-    services,
     introdata,
     contactConfig,
     socialprofils,
