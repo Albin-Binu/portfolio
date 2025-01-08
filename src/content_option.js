@@ -10,8 +10,10 @@ const meta = {
 const introdata = {
     title: `I'm ${fname}`,
     animated: {
-        first: "I Love Coding",
-        second: "I Hate Math",
+        first: "I may be single, but my portfolio is always open-source",
+        second: "No math, just love for coding (and maybe for you)",
+        third: "Love coding, hate math—but I’m happy to calculate our future together.",
+        fourth: `My heart's a little like my code—complex, but worth figuring out.`
     },
     description: `Im a ${clg_year} Computer Science Student, who love Coding and Hate Math`,
     your_img_url: image,
