@@ -1,4 +1,5 @@
-import image from './img/dev.jpg'
+
+import image from './img/home-img.png'
 const clg_year = "2nd Year"
 const logotext = "Albin";
 const fname = "Albin Binu";
