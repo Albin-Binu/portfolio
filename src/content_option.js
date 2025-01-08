@@ -1,23 +1,25 @@
 import image from './img/dev.jpg'
+const clg_year = "2nd Year"
 const logotext = "Albin";
+const fname = "Albin Binu";
 const meta = {
-    title: "Albin Binu",
+    title: fname,
     description: "I'm still learning",
 };
 
 const introdata = {
-    title: "I'm Albin Binu",
+    title: `I'm ${fname}`,
     animated: {
         first: "I Love Coding",
-        second: "I Hate Logical Thinking",
+        second: "I Hate Math",
     },
-    description: "Im a second year Computer Science Student, who love Coding and Hate Math",
+    description: `Im a ${clg_year} Computer Science Student, who love Coding and Hate Math`,
     your_img_url: image,
 };
 
 const dataabout = {
     title: "About my Self",
-    aboutme: "My name is Albin Binu, and I'm a first-year computer science student at the College of Applied Science, Thiruvambadi. I love programming, but understanding the logic behind it is challenging for me. I dislike mathematics; consequently, grasping math-based logic is not my forte. Despite this, I am currently focusing on web development and object-oriented languages to enhance my skills.",
+    aboutme: `My name is ${fname}, and I'm a first-year computer science student at the College of Applied Science, Thiruvambadi. I love programming, but understanding the logic behind it is challenging for me. I dislike mathematics; consequently, grasping math-based logic is not my forte. Despite this, I am currently focusing on web development and object-oriented languages to enhance my skills.`,
 };
 
 
@@ -39,68 +41,68 @@ const skills = [{
     },
 ];
 
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+// const dataportfolio = [{
+//         img: "https://picsum.photos/400/?grayscale",
+//         description: "The wisdom of life consists in the elimination of non-essentials.",
+//         link: "#",
+//     },
+//     {
+//         img: "https://picsum.photos/400/800/?grayscale",
+//         description: "The wisdom of life consists in the elimination of non-essentials.",
+//         link: "#",
+//     },
+//     {
+//         img: "https://picsum.photos/400/?grayscale",
+//         description: "The wisdom of life consists in the elimination of non-essentials.",
+//         link: "#",
+//     },
+//     {
+//         img: "https://picsum.photos/400/600/?grayscale",
+//         description: "The wisdom of life consists in the elimination of non-essentials.",
+//         link: "#",
+//     },
+//     {
+//         img: "https://picsum.photos/400/300/?grayscale",
+//         description: "The wisdom of life consists in the elimination of non-essentials.",
+//         link: "#",
+//     },
+//     {
+//         img: "https://picsum.photos/400/700/?grayscale",
+//         description: "The wisdom of life consists in the elimination of non-essentials.",
+//         link: "#",
+//     },
 
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-];
+//     {
+//         img: "https://picsum.photos/400/600/?grayscale",
+//         description: "The wisdom of life consists in the elimination of non-essentials.",
+//         link: "#",
+//     },
+//     {
+//         img: "https://picsum.photos/400/300/?grayscale",
+//         description: "The wisdom of life consists in the elimination of non-essentials.",
+//         link: "#",
+//     },
+//     {
+//         img: "https://picsum.photos/400/?grayscale",
+//         description: "The wisdom of life consists in the elimination of non-essentials.",
+//         link: "#",
+//     },
+//     {
+//         img: "https://picsum.photos/400/550/?grayscale",
+//         description: "The wisdom of life consists in the elimination of non-essentials.",
+//         link: "#",
+//     },
+//     {
+//         img: "https://picsum.photos/400/?grayscale",
+//         description: "The wisdom of life consists in the elimination of non-essentials.",
+//         link: "#",
+//     },
+//     {
+//         img: "https://picsum.photos/400/700/?grayscale",
+//         description: "The wisdom of life consists in the elimination of non-essentials.",
+//         link: "#",
+//     },
+// ];
 
 const contactConfig = {
     YOUR_EMAIL: "albinbinuk17@gmail.com",
@@ -124,7 +126,7 @@ const socialprofils = {
 export {
     meta,
     dataabout,
-    dataportfolio,
+    // dataportfolio,
     skills,
     introdata,
     contactConfig,
