@@ -1,4 +1,4 @@
-import image from './img/banner.png'
+const image = 'https://ik.imagekit.io/bbyvnsxrx/banner.png?updatedAt=1736440877562'
 const clg_year = "2nd Year"
 const logotext = "Albin";
 const fname = "Albin Binu";
@@ -8,7 +8,8 @@ const meta = {
 };
 
 const introdata = {
-    title: `I'm ${fname}`,
+    title: logotext,
+    subtitle:"Binu",
     animated: {
         first: "I may be single, but my portfolio is always open-source",
         second: "No math, just love for coding (and maybe for you)",
