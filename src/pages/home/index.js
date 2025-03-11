@@ -23,7 +23,7 @@ export const Home = () => {
             <div className="align-self-center ">
               <div className="intro mx-auto">
                 <h2 className="mb-1x"><span className="name-color">{introdata.title}</span> {introdata.subtitle}</h2>
-                <h1 className="fluidz-48 mb-1x">
+                <h1 className="fluidz-48 mb-1x texts">
                   <Typewriter
                     options={{
                       strings: [

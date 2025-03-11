@@ -18,7 +18,7 @@ const Headermain = () => {
       <header className="fixed-top site__header">
         <div className="d-flex align-items-center justify-content-between">
           <Link  className="navbar-brand nav_ac" to="/">
-          <span className="name-color">{introdata.title}</span> {introdata.subtitle}
+          <span className="name-color-0">{introdata.title}</span> <span className="name-color-1">{introdata.subtitle}</span>
           </Link>
           <div className="d-flex align-items-center">
           <Themetoggle />

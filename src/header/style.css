@@ -205,6 +205,9 @@
     margin-right: 10px;
     text-decoration: none;
 }
-.name-color {
+.name-color-0 {
     color:red;
+}
+.name-color-1,.name-color-0 {
+    font-family: "Dancing Script", cursive;
 }
